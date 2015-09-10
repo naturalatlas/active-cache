@@ -1,0 +1,34 @@
+{
+  "name": "active-cache",
+  "version": "0.0.0",
+  "description": "Wraps async-cache and lru-cache to provide active item deletion",
+  "license": "Apache License 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list",
+    "test-ci": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naturalatlas/active-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "lru",
+    "lru-cache",
+    "async-cache"
+  ],
+  "bugs": {
+    "url": "https://github.com/naturalatlas/active-cache/issues"
+  },
+  "homepage": "https://github.com/naturalatlas/active-cache",
+  "dependencies": {
+    "async-cache": "^1.0.0",
+    "extend": "^3.0.0",
+    "lru-cache": "^2.6.5"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}
