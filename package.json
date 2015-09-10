@@ -1,6 +1,6 @@
 {
   "name": "active-cache",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Wraps async-cache and lru-cache to provide active item deletion",
   "license": "Apache License 2.0",
   "main": "index.js",
